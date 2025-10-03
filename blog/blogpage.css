@@ -1,0 +1,169 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    padding: 20px 30px 30px 30px;
+    font-family: "Nunito", sans-serif;
+}
+
+.page-header{
+    display: flex;
+    align-items: center;
+}
+
+.fa-arrow-left{
+    color: black;
+    padding-right: 20px;
+}
+
+.content-main-heading {
+    font-family: "Archivo Black", sans-serif;
+    font-size: 1.6rem;
+}
+
+/* card design */
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.card {
+    flex-basis: 100%;
+    border: 1px solid black;
+    border-radius: 30px;
+    padding: 15px;
+    transition: transform 0.6s ease;
+}
+
+.card:hover {
+    transform: scale(1.03);
+}
+
+.card img {
+    width: 100%;
+    border-radius: 20px;
+    border: 1px solid black;
+}
+
+.card p {
+    margin-top: 5px;
+    font-weight: lighter;
+    font-size: .8rem;
+}
+
+.fa-icon {
+    margin: 0 5px 0 0;
+}
+
+.get-started-btn {
+    margin-top: 20px;
+    width: 100%;
+}
+
+.get-started-btn a {
+    font-size: 1.1rem;
+    display: flex;
+    justify-content: center;
+    border: 1px solid black;
+    border-radius: 25px;
+    background-color: black;
+    color: white;
+    padding: 8px 40px;
+    cursor: pointer;
+}
+
+.get-started-btn a:hover {
+    color: black;
+    background-color: white;
+    transition: 0.5s ease-in;
+}
+
+.hr-line {
+    margin: 20px 0;
+    color: black;
+}
+
+.pagination {
+    display: flex;
+    margin-top: 20px;
+    width: 100%;
+    overflow-x: scroll;
+}
+
+.pagination li {
+    padding-left: 10px;
+    font-size: 1rem;
+}
+
+.pagination li a {
+    color: white;
+    background-color: black;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 5px 10px;
+    display: flex;
+    align-items: center;
+}
+
+.fa-angle-left {
+    padding-right: 5px;
+}
+
+.fa-angle-right {
+    padding-left: 5px;
+}
+
+.pagination li a.active {
+    background-color: white;
+    color: black;
+}
+
+.pagination li a:hover {
+    background-color: white;
+    color: black;
+}
+
+/* media quaries for all pages */
+@media screen and (min-width: 580px) {
+    .cards {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .card {
+        flex-basis: 40%;
+    }
+}
+
+@media screen and (min-width: 890px) {
+    .content-main-heading {
+        font-size: 4rem;
+    }
+    .cards {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .card {
+        flex-basis: 23%;
+    }
+
+    .card p{
+        font-size: .6rem;
+    }
+}

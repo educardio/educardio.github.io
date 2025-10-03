@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Get Started</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap"
+        rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=hub" />
+</head>
+
+<style>
+    body {
+        padding: 20px;
+    }
+
+    .container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .img-container img{
+        width: 40vw;
+    }
+
+    .text-heading h1 {
+        font-family: "Archivo Black", sans-serif;
+        font-size: 5rem;
+        font-weight: bold;
+        margin-bottom: -4%;
+    }
+
+    .text-heading h2 {
+        font-family: "Nunito", sans-serif;
+        font-size: 1.5rem;
+    }
+
+    .home-btn a {
+        color: white;
+        border: 1px solid black;
+        padding: 8px 20px;
+        display: inline-block;
+        justify-content: center;
+        align-items: center;
+        text-decoration: none;
+        border-radius: 25px;
+        background-color: black;
+        transition: 0.5s ease;
+    }
+
+    .fa-icon {
+        padding-right: 5px;
+    }
+
+    .home-btn a:hover {
+        background-color: white;
+        color: black;
+    }
+
+    @media screen and (max-width: 768px) {
+        .container {
+            display: flex;
+            flex-direction: column;
+        }
+
+    }
+</style>
+
+<body>
+    <div class="container">
+        <div class="text-heading">
+            <h1>Oops!</h1>
+            <h2>we're sorry this page is under maintenance</h2>
+            <div class="home-btn">
+                <a href="../index.html"><i class="fa-icon fa-solid fa-angle-left"></i>Back to Home</a>
+            </div>
+        </div>
+        <div class="img-container">
+            <img src="images/working-maintain.png">
+        </div>
+    </div>
+</body>
+
+</html>
