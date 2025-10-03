@@ -1,0 +1,20 @@
+const toggleButton = document.getElementById("hamburger");
+const showNavbar = document.getElementById("sm-navbar");
+
+toggleButton.addEventListener('click', function(){
+    if (showNavbar.style.display === 'none' || showNavbar.style.display === ''){
+        showNavbar.style.display = 'block';
+    }
+    else{
+        showNavbar.style.display = 'none';
+    }
+});
+
+function handleResize(){
+    if(window.innerWidth > 900){
+        showNavbar.style.display = '';
+    }
+}
+
+window.addEventListener('resize', handleResize);
+handleResize();
