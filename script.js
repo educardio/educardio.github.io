@@ -1,7 +1,8 @@
 const toggleButton = document.getElementById("hamburger");
 const showNavbar = document.getElementById("sm-navbar");
 
-toggleButton.addEventListener('click', function(){
+toggleButton.addEventListener('click', function(event){
+    event.stopPropagation();
     if (showNavbar.style.display === 'none' || showNavbar.style.display === ''){
         showNavbar.style.display = 'block';
     }
