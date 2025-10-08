@@ -10,6 +10,10 @@ toggleButton.addEventListener('click', function(){
     }
 });
 
+document.addEventListener("click", function(){
+    showNavbar.style.display = "none";
+});
+
 function handleResize(){
     if(window.innerWidth > 900){
         showNavbar.style.display = '';
