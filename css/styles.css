@@ -1,1 +1,496 @@
 
+* {
+
+    margin: 0;
+
+    padding: 0;
+
+    box-sizing: border-box;
+
+}
+
+
+
+li {
+
+    list-style: none;
+
+}
+
+
+
+a {
+
+    text-decoration: none;
+
+}
+
+
+
+body {
+
+    padding: 10px 30px 30px 30px;
+
+    font-family: "Nunito", sans-serif;
+
+    scroll-behavior: smooth;
+
+}
+
+
+
+/* Navbar Section */
+
+.navbar {
+
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+
+    color: black;
+
+}
+
+
+
+.navbar h1 {
+
+    font-size: 3rem;
+
+}
+
+
+
+.nav-links {
+
+    display: flex;
+
+    flex-direction: row;
+
+    gap: 50px;
+
+    font-size: 1.2rem;
+
+    font-weight: light;
+
+}
+
+
+
+.nav-links li {
+
+    list-style: none;
+
+}
+
+
+
+#hamburger {
+
+    display: none;
+
+}
+
+
+
+#sm-navbar {
+
+    display: none;
+
+    position: relative;
+
+}
+
+
+
+.box-indicator {
+
+    width: 15px;
+
+    height: 15px;
+
+    border: 1px solid #EEEEEE;
+
+    background-color: #EEEEEE;
+
+    transform: rotate(45deg);
+
+    position: absolute;
+
+    right: 7px;
+
+}
+
+
+
+.sm-nav-links {
+
+    position: absolute;
+
+    right: 0;
+
+    top: 4px;
+
+    background-color: #EEEEEE;
+
+    border: 1px solid #EEEEEE;
+
+    padding: 10px 20px;
+
+    border-radius: 10px;
+
+}
+
+
+
+.sm-nav-links li {
+
+    padding: 2px;
+
+}
+
+
+
+.sm-nav-links li a {
+
+    color: black;
+
+}
+
+
+
+.nav-links .link a {
+
+    color: black;
+
+    padding: 3px;
+
+}
+
+
+
+.nav-links .link a:hover {
+
+    border-bottom: 1px solid black;
+
+    transition: 0.5s ease;
+
+}
+
+
+
+.utility-btn {
+
+    display: flex;
+
+}
+
+
+
+.utility-btn .fa-brands {
+
+    padding-left: 15px;
+
+    font-size: 1.3rem;
+
+    color: black;
+
+    transition: transform 0.8s ease;
+
+}
+
+
+
+.utility-btn .fa-brands:hover {
+
+    transform: scale(1.2);
+
+}
+
+
+
+.utility-btn .fa-whatsapp:hover {
+
+    color: #25D366;
+
+}
+
+
+
+.utility-btn .fa-instagram:hover {
+
+    color: #E1306C;
+
+}
+
+
+
+.utility-btn .fa-youtube:hover {
+
+    color: #FF0000;
+
+}
+
+
+
+.utility-btn .fa-linkedin-in:hover {
+
+    color: #0a66c2;
+
+}
+
+
+
+/* main landing section */
+
+
+
+.landing-section {
+
+    display: flex;
+
+    margin-top: 30px;
+
+    align-items: center;
+
+    justify-content: space-between;
+
+}
+
+
+
+.landing-section img {
+
+    width: 35vw;
+
+}
+
+
+
+.landing-content h1 {
+
+    font-size: 2.5rem;
+
+}
+
+
+
+.landing-content p {
+
+    font-size: 1.2rem;
+
+}
+
+
+
+.get-started-btn {
+
+    margin-top: 20px;
+
+    width: 100%;
+
+}
+
+
+
+.get-started-btn a {
+
+    font-size: 1.1rem;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    border: 1px solid black;
+
+    border-radius: 25px;
+
+    background-color: black;
+
+    color: white;
+
+    padding: 8px 40px;
+
+    cursor: pointer;
+
+}
+
+
+
+.get-started-btn .fa-angle-right {
+
+    padding-left: 10px;
+
+}
+
+
+
+.get-started-btn a:hover {
+
+    color: black;
+
+    background-color: white;
+
+    transition: 0.5s ease-in;
+
+}
+
+
+
+.fa-icon {
+
+    margin: 0 5px 0 0;
+
+}
+
+
+
+/* media quaries for all pages */
+
+
+
+@media screen and (max-width: 420px) {
+
+    .navbar h1 {
+
+        font-size: 1.6rem;
+
+    }
+
+
+
+    .landing-section {
+
+        display: flex;
+
+        flex-direction: column;
+
+    }
+
+
+
+    .landing-section h1 {
+
+        font-size: 1.3rem;
+
+    }
+
+
+
+    .landing-section p {
+
+        font-size: 1rem;
+
+    }
+
+
+
+    .landing-section img {
+
+        width: 100%;
+
+    }
+
+}
+
+
+
+@media screen and (max-width: 890px) {
+
+    .navbar h1 {
+
+        font-size: 2.1rem;
+
+    }
+
+
+
+    #hamburger {
+
+        font-size: 1.8rem;
+
+        display: block;
+
+    }
+
+
+
+    .landing-section h1 {
+
+        font-size: 1.9rem;
+
+    }
+
+
+
+    .landing-section p {
+
+        font-size: 1rem;
+
+    }
+
+
+
+    .nav-links .link,
+
+    .utility-btn {
+
+        display: none;
+
+    }
+
+
+
+    .landing-section {
+
+        display: flex;
+
+        flex-direction: column;
+
+    }
+
+
+
+    .landing-section img {
+
+        width: 100%;
+
+    }
+
+
+
+    #sm-navbar{
+
+        display: none;
+
+    }
+
+}
+
+
+
+@media screen and (min-width: 600px) {
+
+    .get-started-btn {
+
+        width: 40%;
+
+        display: inline-block;
+
+
+
+    }
+
+
+
+    .get-started-btn a {
+
+        font-size: 1.1rem;
+
+    }
+
+}
