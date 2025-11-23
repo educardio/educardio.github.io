@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url><loc>https://educardio.github.io/</loc></url>
+  <url><loc>https://educardio.github.io/blog/</loc></url>
+
+  <!-- ECG -->
+  <url><loc>https://educardio.github.io/blog/ecg/</loc></url>
+  <url><loc>https://educardio.github.io/blog/ecg/index.html</loc></url>
+  <url><loc>https://educardio.github.io/blog/ecg/pacing-system.html</loc></url>
+
+  <!-- ECHO -->
+  <url><loc>https://educardio.github.io/blog/echo/</loc></url>
+  <url><loc>https://educardio.github.io/blog/echo/index.html</loc></url>
+
+  <!-- CARDIOLOGY -->
+  <url><loc>https://educardio.github.io/blog/cardiology/</loc></url>
+  <url><loc>https://educardio.github.io/blog/cardiology/index.html</loc></url>
+  
+</urlset>
