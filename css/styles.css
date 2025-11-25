@@ -351,6 +351,9 @@ footer{
     text-align: center;
     justify-content: center;
     margin-top: 30px;
+    font-size: 0.875rem;
+    line-height: 1.5;
+    color: #a0a0a0;
 }
 
 
