@@ -71,6 +71,12 @@ td{
     font-weight: lighter;
 }
 
+footer{
+    text-align: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+
 @media screen and (min-width: 500px) {
     h1 {
         font-size: 3rem;
