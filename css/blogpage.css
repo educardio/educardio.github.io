@@ -136,6 +136,12 @@ body {
     color: black;
 }
 
+footer{
+    text-align: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+
 /* media quaries for all pages */
 @media screen and (min-width: 580px) {
     .cards {
