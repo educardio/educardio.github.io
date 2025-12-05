@@ -1,0 +1,136 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  padding: 10px 30px 30px 30px;
+  scroll-behavior: smooth;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.header {
+  font-family: "Archivo Black", sans-serif;
+}
+
+.hr-line {
+  margin: 20px 0;
+  color: black;
+}
+
+.search-container {
+  position: relative;
+  margin: 10px 0;
+}
+
+#searchInput {
+  width: 100%;
+  padding: 10px 20px;
+  font-size: 1rem;
+  border: 2px solid #ddd;
+  border-radius: 12px;
+  outline: none;
+  box-sizing: border-box;
+  transition: all 0.3s;
+  font-family: "Nunito", sans-serif;
+}
+
+#searchInput:focus {
+  border-color: #bdbdbd;
+  /*box-shadow: 0 0 0 4px rgba(74, 144, 226, 0.1);*/
+}
+
+.clear-btn {
+  position: absolute;
+  right: 12px;
+  top: 50%;
+  transform: translateY(-50%);
+  background: none;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+  color: #aaa;
+  display: none;
+}
+
+.clear-btn:hover {
+  color: #666;
+}
+
+.notes-container {
+  display: grid;
+  gap: 16px;
+}
+
+.note {
+  background: white;
+  border-radius: 15px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s;
+  opacity: 1;
+  height: auto;
+}
+
+.head{
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 15px;
+  align-items: center;
+  font-family: "Nunito", sans-serif;
+}
+
+.note.hidden {
+  opacity: 0;
+  height: 0;
+  padding: 0 20px;
+  margin: 0;
+  overflow: hidden;
+  pointer-events: none;
+}
+
+.image {
+  width: 50px;
+  margin-right: 20px;
+}
+
+.icon {
+  font-size: 1.5rem;
+  background-color: #eee;
+  border-radius: 50px;
+  padding: 7px 10px;
+}
+
+.note-title {
+  margin: 0 0 8px 0;
+  font-size: 1.25rem;
+  color: #222;
+}
+
+.note-title a {
+  cursor: pointer;
+}
+
+.no-results {
+  text-align: center;
+  padding: 40px;
+  color: #888;
+  font-size: 1.2em;
+  display: none;
+  font-family: "Nunito", sans-serif;
+}
+
+
+footer {
+  text-align: center;
+  justify-content: center;
+  margin-top: 30px;
+  font-size: 0.875rem;
+  line-height: 1.5;
+  color: #a0a0a0;
+  font-family: "Nunito", sans-serif;
+}
