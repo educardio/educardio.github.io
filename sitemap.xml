@@ -15,5 +15,11 @@
   <!-- CARDIOLOGY -->
   <url><loc>https://educardio.github.io/blog/cardiology/</loc></url>
   <url><loc>https://educardio.github.io/blog/cardiology/index.html</loc></url>
+
+  
+  <url><loc>https://educardio.github.io/blog/index.html</loc></url>
+ <url><loc>https://educardio.github.io/notes/</loc></url> <url><loc>https://educardio.github.io/notes/index.html</loc></url>
+
+   <url><loc>https://educardio.github.io/videos/</loc></url> <url><loc>https://educardio.github.io/videos/index.html</loc></url>
   
 </urlset>
