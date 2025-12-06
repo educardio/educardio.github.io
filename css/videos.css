@@ -171,3 +171,34 @@ footer {
   color: #a0a0a0;
   font-family: "Nunito", sans-serif;
 }
+
+@media screen and (min-width: 500px) {
+    h1 {
+        font-size: 3rem;
+    }
+
+    body {
+        padding: 30px 60px;
+    }
+    
+    .notes-container{
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+    }
+
+}
+
+@media screen and (min-width: 768px) {
+    h1 {
+        font-size: 3.5rem;
+    }
+
+    body {
+        padding: 40px 150px;
+    }
+    
+    .notes-container{
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
