@@ -1,6 +1,6 @@
 # EduCardio – Master ECG, Echocardiography & Clinical Cardiology
 
-[![GitHub Pages](https://github.com/educardio/educardio.github.io/actions/workflows/pages.yml/badge.svg?branch=main)](https://github.com/educardio/educardio.github.io/actions/workflows/pages.yml)  
+[![GitHub Pages]#educardio](https://github.com/educardio/educardio.github.io/actions/workflows/pages.yml)  
 Live site: **[https://educardio.github.io](https://educardio.github.io)**
 
 **Online learning platform for heart & cardiology expertise.**  
