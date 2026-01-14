@@ -21,5 +21,3 @@ For the full license text see: https://creativecommons.org/licenses/by-nc-sa/4.0
 ### Notes:
 - Some images may have more restrictive licenses — always check the caption/credit line
 - Commercial use, inclusion in paid courses, or use in commercial products/apps requires separate written permission
-
-Questions? → educardio.contact [at] gmail.com
