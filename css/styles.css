@@ -356,6 +356,11 @@ footer{
     color: #a0a0a0;
 }
 
+footer a{
+    color: #a0a0a0;
+    text-decoration: underline;
+}
+
 
 
 /* media quaries for all pages */
